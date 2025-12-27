@@ -30,59 +30,141 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.ulbl = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.rightPnl = new System.Windows.Forms.Panel();
+            this.utxt = new System.Windows.Forms.TextBox();
+            this.passlbl = new System.Windows.Forms.Label();
+            this.passtxt = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.rightPnl.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AllowDrop = true;
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 25.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 25.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(706, 197);
+            this.label1.Location = new System.Drawing.Point(94, 140);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(348, 49);
+            this.label1.Size = new System.Drawing.Size(325, 57);
             this.label1.TabIndex = 0;
             this.label1.Text = "Wellcome Back";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
+            this.label2.AllowDrop = true;
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(712, 306);
+            this.label2.Location = new System.Drawing.Point(96, 239);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(183, 41);
             this.label2.TabIndex = 1;
             this.label2.Text = "Log in now!";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // ulbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(719, 401);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Username";
+            this.ulbl.AllowDrop = true;
+            this.ulbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ulbl.AutoSize = true;
+            this.ulbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ulbl.Location = new System.Drawing.Point(98, 321);
+            this.ulbl.Name = "ulbl";
+            this.ulbl.Size = new System.Drawing.Size(102, 25);
+            this.ulbl.TabIndex = 2;
+            this.ulbl.Text = "Username";
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.Blue;
+            this.panel1.Location = new System.Drawing.Point(0, 691);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1110, 27);
+            this.panel1.TabIndex = 3;
+            // 
+            // rightPnl
+            // 
+            this.rightPnl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.rightPnl.Controls.Add(this.button1);
+            this.rightPnl.Controls.Add(this.passtxt);
+            this.rightPnl.Controls.Add(this.passlbl);
+            this.rightPnl.Controls.Add(this.utxt);
+            this.rightPnl.Controls.Add(this.ulbl);
+            this.rightPnl.Controls.Add(this.label2);
+            this.rightPnl.Controls.Add(this.label1);
+            this.rightPnl.Location = new System.Drawing.Point(214, 21);
+            this.rightPnl.Name = "rightPnl";
+            this.rightPnl.Size = new System.Drawing.Size(559, 648);
+            this.rightPnl.TabIndex = 4;
+            // 
+            // utxt
+            // 
+            this.utxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.utxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.utxt.ForeColor = System.Drawing.Color.Blue;
+            this.utxt.Location = new System.Drawing.Point(103, 349);
+            this.utxt.Name = "utxt";
+            this.utxt.Size = new System.Drawing.Size(339, 30);
+            this.utxt.TabIndex = 3;
+            // 
+            // passlbl
+            // 
+            this.passlbl.AllowDrop = true;
+            this.passlbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.passlbl.AutoSize = true;
+            this.passlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passlbl.Location = new System.Drawing.Point(98, 402);
+            this.passlbl.Name = "passlbl";
+            this.passlbl.Size = new System.Drawing.Size(98, 25);
+            this.passlbl.TabIndex = 4;
+            this.passlbl.Text = "Password";
+            // 
+            // passtxt
+            // 
+            this.passtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.passtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passtxt.ForeColor = System.Drawing.Color.Blue;
+            this.passtxt.Location = new System.Drawing.Point(103, 430);
+            this.passtxt.Name = "passtxt";
+            this.passtxt.Size = new System.Drawing.Size(339, 30);
+            this.passtxt.TabIndex = 5;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.Blue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Window;
+            this.button1.Location = new System.Drawing.Point(103, 491);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(224, 47);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Log In";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1456, 738);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1090, 720);
+            this.Controls.Add(this.rightPnl);
+            this.Controls.Add(this.panel1);
             this.Name = "LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CodeLab Log In";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.LogIn_Load);
+            this.rightPnl.ResumeLayout(false);
+            this.rightPnl.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -90,7 +172,13 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label ulbl;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel rightPnl;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox passtxt;
+        private System.Windows.Forms.Label passlbl;
+        private System.Windows.Forms.TextBox utxt;
     }
 }
 
