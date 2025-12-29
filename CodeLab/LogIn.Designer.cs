@@ -40,11 +40,11 @@
             this.passlbl = new System.Windows.Forms.Label();
             this.utxt = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.logoimg = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.logoimg = new System.Windows.Forms.PictureBox();
             this.rightPnl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.logoimg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoimg)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -129,11 +129,11 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.Blue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Window;
-            this.button1.Location = new System.Drawing.Point(103, 491);
+            this.button1.Location = new System.Drawing.Point(158, 486);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(224, 47);
+            this.button1.Size = new System.Drawing.Size(224, 50);
             this.button1.TabIndex = 6;
             this.button1.Text = "Log In";
             this.button1.UseVisualStyleBackColor = false;
@@ -148,6 +148,7 @@
             this.passtxt.Name = "passtxt";
             this.passtxt.Size = new System.Drawing.Size(339, 30);
             this.passtxt.TabIndex = 5;
+            this.passtxt.UseSystemPasswordChar = true;
             // 
             // passlbl
             // 
@@ -184,17 +185,6 @@
             this.label2.Text = "Log in now!";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // logoimg
-            // 
-            this.logoimg.BackColor = System.Drawing.Color.Transparent;
-            this.logoimg.Image = ((System.Drawing.Image)(resources.GetObject("logoimg.Image")));
-            this.logoimg.Location = new System.Drawing.Point(8, 130);
-            this.logoimg.Name = "logoimg";
-            this.logoimg.Size = new System.Drawing.Size(505, 472);
-            this.logoimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logoimg.TabIndex = 5;
-            this.logoimg.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -206,6 +196,17 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // logoimg
+            // 
+            this.logoimg.BackColor = System.Drawing.Color.Transparent;
+            this.logoimg.Image = ((System.Drawing.Image)(resources.GetObject("logoimg.Image")));
+            this.logoimg.Location = new System.Drawing.Point(8, 130);
+            this.logoimg.Name = "logoimg";
+            this.logoimg.Size = new System.Drawing.Size(505, 472);
+            this.logoimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logoimg.TabIndex = 5;
+            this.logoimg.TabStop = false;
+            // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -216,12 +217,13 @@
             this.Controls.Add(this.rightPnl);
             this.Controls.Add(this.panel1);
             this.Name = "LogIn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CodeLab Log In";
             this.Load += new System.EventHandler(this.LogIn_Load);
             this.rightPnl.ResumeLayout(false);
             this.rightPnl.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.logoimg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoimg)).EndInit();
             this.ResumeLayout(false);
 
         }

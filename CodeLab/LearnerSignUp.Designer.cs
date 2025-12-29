@@ -201,6 +201,7 @@
             this.Controls.Add(this.fntextBox);
             this.Controls.Add(this.fnlbl);
             this.Name = "LearnerSignUp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LearnerSignUp";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
