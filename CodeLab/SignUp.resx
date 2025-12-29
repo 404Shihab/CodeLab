@@ -153,6 +153,9 @@
     <value>Teacher</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -162,8 +165,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>CodeLab SignUp</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>372, 302</value>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 22.8000011pt, style=Bold</value>
@@ -173,9 +176,6 @@
   </data>
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
@@ -189,17 +189,14 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
   <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>334, 207</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
@@ -747,17 +744,20 @@
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>434, 57</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 77</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 207</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 22.8000011pt, style=Bold</value>
@@ -789,11 +789,11 @@
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 25.2pt, style=Bold</value>
   </data>
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 77</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 302</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>

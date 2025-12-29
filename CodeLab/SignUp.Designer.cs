@@ -73,7 +73,7 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Name = "label1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -86,7 +86,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ForeColor = System.Drawing.SystemColors.MenuText;
             this.Name = "SignUp";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

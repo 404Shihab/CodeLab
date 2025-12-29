@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LearnerSignUp));
             this.fnlbl = new System.Windows.Forms.Label();
             this.fntextBox = new System.Windows.Forms.TextBox();
             this.lnlbl = new System.Windows.Forms.Label();
@@ -40,6 +41,10 @@
             this.cptextBox = new System.Windows.Forms.TextBox();
             this.passlbl = new System.Windows.Forms.Label();
             this.signUpbtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // fnlbl
@@ -55,7 +60,7 @@
             // fntextBox
             // 
             this.fntextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fntextBox.Location = new System.Drawing.Point(636, 135);
+            this.fntextBox.Location = new System.Drawing.Point(636, 123);
             this.fntextBox.Name = "fntextBox";
             this.fntextBox.Size = new System.Drawing.Size(257, 34);
             this.fntextBox.TabIndex = 1;
@@ -64,7 +69,7 @@
             // 
             this.lnlbl.AutoSize = true;
             this.lnlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnlbl.Location = new System.Drawing.Point(631, 210);
+            this.lnlbl.Location = new System.Drawing.Point(631, 192);
             this.lnlbl.Name = "lnlbl";
             this.lnlbl.Size = new System.Drawing.Size(128, 29);
             this.lnlbl.TabIndex = 2;
@@ -73,7 +78,7 @@
             // lntextBox
             // 
             this.lntextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lntextBox.Location = new System.Drawing.Point(636, 259);
+            this.lntextBox.Location = new System.Drawing.Point(636, 235);
             this.lntextBox.Name = "lntextBox";
             this.lntextBox.Size = new System.Drawing.Size(257, 34);
             this.lntextBox.TabIndex = 3;
@@ -82,7 +87,7 @@
             // 
             this.unlbl.AutoSize = true;
             this.unlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.unlbl.Location = new System.Drawing.Point(631, 324);
+            this.unlbl.Location = new System.Drawing.Point(631, 312);
             this.unlbl.Name = "unlbl";
             this.unlbl.Size = new System.Drawing.Size(124, 29);
             this.unlbl.TabIndex = 4;
@@ -101,7 +106,7 @@
             // 
             this.cplbl.AutoSize = true;
             this.cplbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cplbl.Location = new System.Drawing.Point(631, 531);
+            this.cplbl.Location = new System.Drawing.Point(631, 518);
             this.cplbl.Name = "cplbl";
             this.cplbl.Size = new System.Drawing.Size(210, 29);
             this.cplbl.TabIndex = 6;
@@ -110,7 +115,7 @@
             // untextBox
             // 
             this.untextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.untextBox.Location = new System.Drawing.Point(636, 372);
+            this.untextBox.Location = new System.Drawing.Point(636, 353);
             this.untextBox.Name = "untextBox";
             this.untextBox.Size = new System.Drawing.Size(257, 34);
             this.untextBox.TabIndex = 7;
@@ -118,7 +123,7 @@
             // passtextBox
             // 
             this.passtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passtextBox.Location = new System.Drawing.Point(637, 469);
+            this.passtextBox.Location = new System.Drawing.Point(637, 455);
             this.passtextBox.Name = "passtextBox";
             this.passtextBox.Size = new System.Drawing.Size(257, 34);
             this.passtextBox.TabIndex = 8;
@@ -135,7 +140,7 @@
             // 
             this.passlbl.AutoSize = true;
             this.passlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passlbl.Location = new System.Drawing.Point(639, 425);
+            this.passlbl.Location = new System.Drawing.Point(632, 409);
             this.passlbl.Name = "passlbl";
             this.passlbl.Size = new System.Drawing.Size(120, 29);
             this.passlbl.TabIndex = 10;
@@ -144,20 +149,45 @@
             // 
             // signUpbtn
             // 
-            this.signUpbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signUpbtn.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.signUpbtn.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signUpbtn.ForeColor = System.Drawing.SystemColors.Control;
             this.signUpbtn.Location = new System.Drawing.Point(632, 645);
             this.signUpbtn.Name = "signUpbtn";
             this.signUpbtn.Size = new System.Drawing.Size(261, 70);
             this.signUpbtn.TabIndex = 11;
             this.signUpbtn.Text = "Sign Up";
-            this.signUpbtn.UseVisualStyleBackColor = true;
+            this.signUpbtn.UseVisualStyleBackColor = false;
             this.signUpbtn.Click += new System.EventHandler(this.signUpbtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(104, 227);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(425, 425);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(163, -9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(331, 230);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
             // 
             // LearnerSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1082, 739);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.signUpbtn);
             this.Controls.Add(this.passlbl);
             this.Controls.Add(this.cptextBox);
@@ -172,6 +202,8 @@
             this.Controls.Add(this.fnlbl);
             this.Name = "LearnerSignUp";
             this.Text = "LearnerSignUp";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,5 +223,7 @@
         private System.Windows.Forms.TextBox cptextBox;
         private System.Windows.Forms.Label passlbl;
         private System.Windows.Forms.Button signUpbtn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
