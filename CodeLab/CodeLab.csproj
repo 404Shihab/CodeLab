@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InstructorSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructorSignUp.Designer.cs">
+      <DependentUpon>InstructorSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LearnerSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LearnerSignUp.Designer.cs">
+      <DependentUpon>LearnerSignUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="InstructorSignUp.resx">
+      <DependentUpon>InstructorSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LearnerSignUp.resx">
+      <DependentUpon>LearnerSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.aa.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>

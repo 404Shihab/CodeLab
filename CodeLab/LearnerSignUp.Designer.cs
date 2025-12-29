@@ -1,0 +1,195 @@
+﻿namespace CodeLab
+{
+    partial class LearnerSignUp
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.fnlbl = new System.Windows.Forms.Label();
+            this.fntextBox = new System.Windows.Forms.TextBox();
+            this.lnlbl = new System.Windows.Forms.Label();
+            this.lntextBox = new System.Windows.Forms.TextBox();
+            this.unlbl = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cplbl = new System.Windows.Forms.Label();
+            this.untextBox = new System.Windows.Forms.TextBox();
+            this.passtextBox = new System.Windows.Forms.TextBox();
+            this.cptextBox = new System.Windows.Forms.TextBox();
+            this.passlbl = new System.Windows.Forms.Label();
+            this.signUpbtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // fnlbl
+            // 
+            this.fnlbl.AutoSize = true;
+            this.fnlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fnlbl.Location = new System.Drawing.Point(631, 77);
+            this.fnlbl.Name = "fnlbl";
+            this.fnlbl.Size = new System.Drawing.Size(131, 29);
+            this.fnlbl.TabIndex = 0;
+            this.fnlbl.Text = "First Name";
+            // 
+            // fntextBox
+            // 
+            this.fntextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fntextBox.Location = new System.Drawing.Point(636, 135);
+            this.fntextBox.Name = "fntextBox";
+            this.fntextBox.Size = new System.Drawing.Size(257, 34);
+            this.fntextBox.TabIndex = 1;
+            // 
+            // lnlbl
+            // 
+            this.lnlbl.AutoSize = true;
+            this.lnlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnlbl.Location = new System.Drawing.Point(631, 210);
+            this.lnlbl.Name = "lnlbl";
+            this.lnlbl.Size = new System.Drawing.Size(128, 29);
+            this.lnlbl.TabIndex = 2;
+            this.lnlbl.Text = "Last Name";
+            // 
+            // lntextBox
+            // 
+            this.lntextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lntextBox.Location = new System.Drawing.Point(636, 259);
+            this.lntextBox.Name = "lntextBox";
+            this.lntextBox.Size = new System.Drawing.Size(257, 34);
+            this.lntextBox.TabIndex = 3;
+            // 
+            // unlbl
+            // 
+            this.unlbl.AutoSize = true;
+            this.unlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.unlbl.Location = new System.Drawing.Point(631, 324);
+            this.unlbl.Name = "unlbl";
+            this.unlbl.Size = new System.Drawing.Size(124, 29);
+            this.unlbl.TabIndex = 4;
+            this.unlbl.Text = "Username";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(631, 455);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 29);
+            this.label3.TabIndex = 5;
+            // 
+            // cplbl
+            // 
+            this.cplbl.AutoSize = true;
+            this.cplbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cplbl.Location = new System.Drawing.Point(631, 531);
+            this.cplbl.Name = "cplbl";
+            this.cplbl.Size = new System.Drawing.Size(210, 29);
+            this.cplbl.TabIndex = 6;
+            this.cplbl.Text = "Confirm Password";
+            // 
+            // untextBox
+            // 
+            this.untextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.untextBox.Location = new System.Drawing.Point(636, 372);
+            this.untextBox.Name = "untextBox";
+            this.untextBox.Size = new System.Drawing.Size(257, 34);
+            this.untextBox.TabIndex = 7;
+            // 
+            // passtextBox
+            // 
+            this.passtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passtextBox.Location = new System.Drawing.Point(637, 469);
+            this.passtextBox.Name = "passtextBox";
+            this.passtextBox.Size = new System.Drawing.Size(257, 34);
+            this.passtextBox.TabIndex = 8;
+            // 
+            // cptextBox
+            // 
+            this.cptextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cptextBox.Location = new System.Drawing.Point(632, 563);
+            this.cptextBox.Name = "cptextBox";
+            this.cptextBox.Size = new System.Drawing.Size(257, 34);
+            this.cptextBox.TabIndex = 9;
+            // 
+            // passlbl
+            // 
+            this.passlbl.AutoSize = true;
+            this.passlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passlbl.Location = new System.Drawing.Point(639, 425);
+            this.passlbl.Name = "passlbl";
+            this.passlbl.Size = new System.Drawing.Size(120, 29);
+            this.passlbl.TabIndex = 10;
+            this.passlbl.Text = "Password";
+            this.passlbl.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // signUpbtn
+            // 
+            this.signUpbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signUpbtn.Location = new System.Drawing.Point(632, 645);
+            this.signUpbtn.Name = "signUpbtn";
+            this.signUpbtn.Size = new System.Drawing.Size(261, 70);
+            this.signUpbtn.TabIndex = 11;
+            this.signUpbtn.Text = "Sign Up";
+            this.signUpbtn.UseVisualStyleBackColor = true;
+            this.signUpbtn.Click += new System.EventHandler(this.signUpbtn_Click);
+            // 
+            // LearnerSignUp
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1082, 739);
+            this.Controls.Add(this.signUpbtn);
+            this.Controls.Add(this.passlbl);
+            this.Controls.Add(this.cptextBox);
+            this.Controls.Add(this.passtextBox);
+            this.Controls.Add(this.untextBox);
+            this.Controls.Add(this.cplbl);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.unlbl);
+            this.Controls.Add(this.lntextBox);
+            this.Controls.Add(this.lnlbl);
+            this.Controls.Add(this.fntextBox);
+            this.Controls.Add(this.fnlbl);
+            this.Name = "LearnerSignUp";
+            this.Text = "LearnerSignUp";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label fnlbl;
+        private System.Windows.Forms.TextBox fntextBox;
+        private System.Windows.Forms.Label lnlbl;
+        private System.Windows.Forms.TextBox lntextBox;
+        private System.Windows.Forms.Label unlbl;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label cplbl;
+        private System.Windows.Forms.TextBox untextBox;
+        private System.Windows.Forms.TextBox passtextBox;
+        private System.Windows.Forms.TextBox cptextBox;
+        private System.Windows.Forms.Label passlbl;
+        private System.Windows.Forms.Button signUpbtn;
+    }
+}
