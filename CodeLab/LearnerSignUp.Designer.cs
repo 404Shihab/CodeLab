@@ -43,6 +43,9 @@
             this.signUpbtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +54,7 @@
             // 
             this.fnlbl.AutoSize = true;
             this.fnlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fnlbl.Location = new System.Drawing.Point(631, 77);
+            this.fnlbl.Location = new System.Drawing.Point(624, 67);
             this.fnlbl.Name = "fnlbl";
             this.fnlbl.Size = new System.Drawing.Size(131, 29);
             this.fnlbl.TabIndex = 0;
@@ -60,7 +63,7 @@
             // fntextBox
             // 
             this.fntextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fntextBox.Location = new System.Drawing.Point(636, 123);
+            this.fntextBox.Location = new System.Drawing.Point(632, 99);
             this.fntextBox.Name = "fntextBox";
             this.fntextBox.Size = new System.Drawing.Size(257, 34);
             this.fntextBox.TabIndex = 1;
@@ -69,7 +72,7 @@
             // 
             this.lnlbl.AutoSize = true;
             this.lnlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnlbl.Location = new System.Drawing.Point(631, 192);
+            this.lnlbl.Location = new System.Drawing.Point(627, 146);
             this.lnlbl.Name = "lnlbl";
             this.lnlbl.Size = new System.Drawing.Size(128, 29);
             this.lnlbl.TabIndex = 2;
@@ -78,7 +81,7 @@
             // lntextBox
             // 
             this.lntextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lntextBox.Location = new System.Drawing.Point(636, 235);
+            this.lntextBox.Location = new System.Drawing.Point(632, 178);
             this.lntextBox.Name = "lntextBox";
             this.lntextBox.Size = new System.Drawing.Size(257, 34);
             this.lntextBox.TabIndex = 3;
@@ -87,7 +90,7 @@
             // 
             this.unlbl.AutoSize = true;
             this.unlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.unlbl.Location = new System.Drawing.Point(631, 312);
+            this.unlbl.Location = new System.Drawing.Point(627, 227);
             this.unlbl.Name = "unlbl";
             this.unlbl.Size = new System.Drawing.Size(124, 29);
             this.unlbl.TabIndex = 4;
@@ -106,7 +109,7 @@
             // 
             this.cplbl.AutoSize = true;
             this.cplbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cplbl.Location = new System.Drawing.Point(631, 518);
+            this.cplbl.Location = new System.Drawing.Point(627, 391);
             this.cplbl.Name = "cplbl";
             this.cplbl.Size = new System.Drawing.Size(210, 29);
             this.cplbl.TabIndex = 6;
@@ -115,7 +118,7 @@
             // untextBox
             // 
             this.untextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.untextBox.Location = new System.Drawing.Point(636, 353);
+            this.untextBox.Location = new System.Drawing.Point(632, 259);
             this.untextBox.Name = "untextBox";
             this.untextBox.Size = new System.Drawing.Size(257, 34);
             this.untextBox.TabIndex = 7;
@@ -123,7 +126,7 @@
             // passtextBox
             // 
             this.passtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passtextBox.Location = new System.Drawing.Point(637, 455);
+            this.passtextBox.Location = new System.Drawing.Point(632, 342);
             this.passtextBox.Name = "passtextBox";
             this.passtextBox.Size = new System.Drawing.Size(257, 34);
             this.passtextBox.TabIndex = 8;
@@ -131,7 +134,7 @@
             // cptextBox
             // 
             this.cptextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cptextBox.Location = new System.Drawing.Point(632, 563);
+            this.cptextBox.Location = new System.Drawing.Point(632, 423);
             this.cptextBox.Name = "cptextBox";
             this.cptextBox.Size = new System.Drawing.Size(257, 34);
             this.cptextBox.TabIndex = 9;
@@ -140,7 +143,7 @@
             // 
             this.passlbl.AutoSize = true;
             this.passlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passlbl.Location = new System.Drawing.Point(632, 409);
+            this.passlbl.Location = new System.Drawing.Point(627, 310);
             this.passlbl.Name = "passlbl";
             this.passlbl.Size = new System.Drawing.Size(120, 29);
             this.passlbl.TabIndex = 10;
@@ -152,7 +155,7 @@
             this.signUpbtn.BackColor = System.Drawing.SystemColors.HotTrack;
             this.signUpbtn.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signUpbtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.signUpbtn.Location = new System.Drawing.Point(632, 645);
+            this.signUpbtn.Location = new System.Drawing.Point(632, 511);
             this.signUpbtn.Name = "signUpbtn";
             this.signUpbtn.Size = new System.Drawing.Size(261, 70);
             this.signUpbtn.TabIndex = 11;
@@ -180,12 +183,47 @@
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(623, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(420, 31);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Create Your Learner Account";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(607, 635);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(330, 29);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Already have an account?";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(960, 635);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(98, 29);
+            this.linkLabel1.TabIndex = 16;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Sign In";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // LearnerSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1082, 739);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.signUpbtn);
@@ -226,5 +264,8 @@
         private System.Windows.Forms.Button signUpbtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

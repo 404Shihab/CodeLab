@@ -55,5 +55,12 @@ namespace CodeLab
             passtextBox.Clear();
             cptextBox.Clear();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            LogIn login = new LogIn();
+            login.Show();
+            this.Hide();
+        }
     }
 }
