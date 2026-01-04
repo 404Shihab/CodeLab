@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstructorDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructorDashboard.Designer.cs">
+      <DependentUpon>InstructorDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstructorSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InstructorSignUp.Designer.cs">
       <DependentUpon>InstructorSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LearnerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LearnerDashboard.Designer.cs">
+      <DependentUpon>LearnerDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="LearnerSignUp.cs">
       <SubType>Form</SubType>
@@ -72,8 +90,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstructorDashboard.resx">
+      <DependentUpon>InstructorDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InstructorSignUp.resx">
       <DependentUpon>InstructorSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LearnerDashboard.resx">
+      <DependentUpon>LearnerDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LearnerSignUp.resx">
       <DependentUpon>LearnerSignUp.cs</DependentUpon>

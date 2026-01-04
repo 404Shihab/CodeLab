@@ -171,6 +171,7 @@
             this.utxt.Name = "utxt";
             this.utxt.Size = new System.Drawing.Size(339, 30);
             this.utxt.TabIndex = 3;
+            this.utxt.TextChanged += new System.EventHandler(this.utxt_TextChanged);
             // 
             // label2
             // 
