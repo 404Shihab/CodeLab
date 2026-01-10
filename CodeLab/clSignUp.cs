@@ -10,26 +10,18 @@ using System.Windows.Forms;
 
 namespace CodeLab
 {
-    public partial class SignUp : Form
+    public partial class clSignUp : Form
     {
-        public SignUp()
+        public clSignUp()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            InstructorSignUp instructorSignUp = new InstructorSignUp();
+            instructorSignUp.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,11 +31,11 @@ namespace CodeLab
             this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void backbtn_Click(object sender, EventArgs e)
         {
-            InstructorSignUp instructorSignUp = new InstructorSignUp();
-            instructorSignUp.Show();
-            this.Hide();
+            LogIn li = new LogIn();
+            li.Show();
+            this.Hide();      
         }
     }
 }

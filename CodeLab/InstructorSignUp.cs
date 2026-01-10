@@ -60,5 +60,12 @@ namespace CodeLab
             logIn.Show();
             this.Hide();
         }
+
+        private void backbtn_Click(object sender, EventArgs e)
+        {
+            clSignUp cs = new clSignUp();
+            cs.Show();
+            this.Hide();
+        }
     }
 }

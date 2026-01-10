@@ -43,7 +43,7 @@ namespace CodeLab
             string username = utxt.Text.Trim();
             string password = passtxt.Text.Trim();
 
-            // ===== ADMIN LOGIN =====
+            
             if (username == "admin1" && password == "adminpass")
             {
                 AdminDashboard ad = new AdminDashboard();
@@ -53,7 +53,7 @@ namespace CodeLab
             }
 
             string conStr = @"Data Source=(LocalDB)\MSSQLLocalDB;
-    AttachDbFilename=D:\C# Codes\CodeLab\CodeLab\CodeLabdb.mdf;
+             AttachDbFilename=D:\C# Codes\CodeLab\CodeLab\CodeLabdb.mdf;
     Integrated Security=True;
     Connect Timeout=30";
 
@@ -101,14 +101,19 @@ namespace CodeLab
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            SignUp signup = new SignUp();
-            signup.Show();
+            clSignUp csignup = new clSignUp();
+            csignup.Show();
             this.Hide();
         }
 
         private void utxt_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Exitbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
