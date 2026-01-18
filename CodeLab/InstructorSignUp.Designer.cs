@@ -37,7 +37,6 @@
             this.passlbl = new System.Windows.Forms.Label();
             this.cpasslbl = new System.Windows.Forms.Label();
             this.lntextBox = new System.Windows.Forms.TextBox();
-            this.pltextBox = new System.Windows.Forms.TextBox();
             this.untextBox = new System.Windows.Forms.TextBox();
             this.passtextBox = new System.Windows.Forms.TextBox();
             this.cpasstextBox = new System.Windows.Forms.TextBox();
@@ -47,6 +46,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.backbtn = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,19 +126,12 @@
             this.lntextBox.Size = new System.Drawing.Size(251, 34);
             this.lntextBox.TabIndex = 7;
             // 
-            // pltextBox
-            // 
-            this.pltextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pltextBox.Location = new System.Drawing.Point(691, 273);
-            this.pltextBox.Name = "pltextBox";
-            this.pltextBox.Size = new System.Drawing.Size(251, 34);
-            this.pltextBox.TabIndex = 8;
-            // 
             // untextBox
             // 
             this.untextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.untextBox.Location = new System.Drawing.Point(691, 361);
             this.untextBox.Name = "untextBox";
+            this.untextBox.ReadOnly = true;
             this.untextBox.Size = new System.Drawing.Size(251, 34);
             this.untextBox.TabIndex = 9;
             // 
@@ -218,16 +211,33 @@
             // 
             // backbtn
             // 
-            this.backbtn.BackColor = System.Drawing.Color.Red;
+            this.backbtn.BackColor = System.Drawing.Color.Transparent;
             this.backbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.backbtn.Location = new System.Drawing.Point(30, 668);
+            this.backbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.backbtn.Location = new System.Drawing.Point(30, 680);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(96, 47);
+            this.backbtn.Size = new System.Drawing.Size(95, 47);
             this.backbtn.TabIndex = 17;
             this.backbtn.Text = "Back";
             this.backbtn.UseVisualStyleBackColor = false;
             this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "C++",
+            "Java",
+            "C#",
+            "Python",
+            "Javascript"});
+            this.comboBox1.Location = new System.Drawing.Point(691, 277);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(251, 37);
+            this.comboBox1.TabIndex = 18;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // InstructorSignUp
             // 
@@ -235,6 +245,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1086, 739);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
@@ -244,7 +255,6 @@
             this.Controls.Add(this.cpasstextBox);
             this.Controls.Add(this.passtextBox);
             this.Controls.Add(this.untextBox);
-            this.Controls.Add(this.pltextBox);
             this.Controls.Add(this.lntextBox);
             this.Controls.Add(this.cpasslbl);
             this.Controls.Add(this.passlbl);
@@ -272,7 +282,6 @@
         private System.Windows.Forms.Label passlbl;
         private System.Windows.Forms.Label cpasslbl;
         private System.Windows.Forms.TextBox lntextBox;
-        private System.Windows.Forms.TextBox pltextBox;
         private System.Windows.Forms.TextBox untextBox;
         private System.Windows.Forms.TextBox passtextBox;
         private System.Windows.Forms.TextBox cpasstextBox;
@@ -282,5 +291,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button backbtn;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

@@ -215,9 +215,9 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(32, 610);
+            this.pictureBox2.Location = new System.Drawing.Point(25, 610);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(52, 50);
+            this.pictureBox2.Size = new System.Drawing.Size(47, 50);
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
@@ -227,7 +227,7 @@
             this.Exitbtn.BackColor = System.Drawing.Color.Red;
             this.Exitbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Exitbtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Exitbtn.Location = new System.Drawing.Point(91, 610);
+            this.Exitbtn.Location = new System.Drawing.Point(78, 610);
             this.Exitbtn.Name = "Exitbtn";
             this.Exitbtn.Size = new System.Drawing.Size(89, 50);
             this.Exitbtn.TabIndex = 7;

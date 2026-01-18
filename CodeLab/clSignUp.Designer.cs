@@ -91,12 +91,12 @@
             // 
             // backbtn
             // 
-            this.backbtn.BackColor = System.Drawing.Color.Red;
+            this.backbtn.BackColor = System.Drawing.Color.White;
             this.backbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.backbtn.Location = new System.Drawing.Point(48, 22);
+            this.backbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.backbtn.Location = new System.Drawing.Point(52, 20);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(96, 47);
+            this.backbtn.Size = new System.Drawing.Size(95, 38);
             this.backbtn.TabIndex = 7;
             this.backbtn.Text = "Back";
             this.backbtn.UseVisualStyleBackColor = false;
