@@ -121,6 +121,7 @@
             this.untextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.untextBox.Location = new System.Drawing.Point(632, 259);
             this.untextBox.Name = "untextBox";
+            this.untextBox.ReadOnly = true;
             this.untextBox.Size = new System.Drawing.Size(257, 34);
             this.untextBox.TabIndex = 7;
             // 
@@ -218,12 +219,12 @@
             // 
             // backbtn
             // 
-            this.backbtn.BackColor = System.Drawing.Color.Red;
+            this.backbtn.BackColor = System.Drawing.Color.White;
             this.backbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.ForeColor = System.Drawing.SystemColors.Control;
+            this.backbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.backbtn.Location = new System.Drawing.Point(34, 668);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(96, 47);
+            this.backbtn.Size = new System.Drawing.Size(96, 40);
             this.backbtn.TabIndex = 17;
             this.backbtn.Text = "Back";
             this.backbtn.UseVisualStyleBackColor = false;
