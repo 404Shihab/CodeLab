@@ -16,5 +16,15 @@ namespace CodeLab
         {
             InitializeComponent();
         }
+
+        private void LearnerDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
