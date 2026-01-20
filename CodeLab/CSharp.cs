@@ -21,5 +21,12 @@ namespace CodeLab
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            LearnerDashboard learn = new LearnerDashboard();
+            learn.Show();
+            this.Hide();
+        }
     }
 }
