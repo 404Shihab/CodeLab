@@ -147,6 +147,7 @@
             this.Controls.Add(this.My);
             this.Controls.Add(this.label1);
             this.Name = "LearnerDashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LearnerDashboard";
             this.Load += new System.EventHandler(this.LearnerDashboard_Load);
             this.ResumeLayout(false);
