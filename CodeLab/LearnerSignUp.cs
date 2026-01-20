@@ -23,7 +23,6 @@ namespace CodeLab
             InitializeComponent();
         }
 
-        // 🔹 Auto Username Generator (L1, L2, L3 ...)
         private string getAutoUsername()
         {
             string uname = "L1";
@@ -56,7 +55,7 @@ namespace CodeLab
             return uname;
         }
 
-        // 🔹 Form Load
+        
         private void LearnerSignUp_Load(object sender, EventArgs e)
         {
             untextBox.ReadOnly = true;
@@ -67,7 +66,7 @@ namespace CodeLab
 
         private void signUpbtn_Click(object sender, EventArgs e)
         {
-            // Password match validation
+            
             if (passtextBox.Text != cptextBox.Text)
             {
                 MessageBox.Show("Password and Confirm Password do not match");
@@ -104,13 +103,13 @@ namespace CodeLab
 
                     MessageBox.Show("Learner Added Successfully\nUsername: " + autoUser);
 
-                    // Clear form
+                    
                     fntextBox.Clear();
                     lntextBox.Clear();
                     passtextBox.Clear();
                     cptextBox.Clear();
 
-                    // Next username
+                    
                     untextBox.Text = getAutoUsername();
                 }
             }
