@@ -74,9 +74,9 @@
             this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(483, 221);
+            this.button1.Location = new System.Drawing.Point(483, 202);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 33);
+            this.button1.Size = new System.Drawing.Size(144, 50);
             this.button1.TabIndex = 3;
             this.button1.Text = "C++";
             this.button1.UseVisualStyleBackColor = false;
@@ -86,9 +86,9 @@
             this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(483, 279);
+            this.button2.Location = new System.Drawing.Point(483, 269);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 30);
+            this.button2.Size = new System.Drawing.Size(144, 57);
             this.button2.TabIndex = 4;
             this.button2.Text = "Java";
             this.button2.UseVisualStyleBackColor = false;
@@ -98,9 +98,9 @@
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(483, 332);
+            this.button3.Location = new System.Drawing.Point(483, 342);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 30);
+            this.button3.Size = new System.Drawing.Size(144, 48);
             this.button3.TabIndex = 5;
             this.button3.Text = "C#";
             this.button3.UseVisualStyleBackColor = false;
@@ -110,9 +110,9 @@
             this.button4.BackColor = System.Drawing.Color.Lime;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button4.Location = new System.Drawing.Point(881, 62);
+            this.button4.Location = new System.Drawing.Point(882, 34);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(115, 31);
+            this.button4.Size = new System.Drawing.Size(115, 59);
             this.button4.TabIndex = 6;
             this.button4.Text = "Profile";
             this.button4.UseVisualStyleBackColor = false;
@@ -121,9 +121,9 @@
             // 
             this.LogOut.BackColor = System.Drawing.Color.Red;
             this.LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogOut.Location = new System.Drawing.Point(1020, 60);
+            this.LogOut.Location = new System.Drawing.Point(1020, 34);
             this.LogOut.Name = "LogOut";
-            this.LogOut.Size = new System.Drawing.Size(116, 33);
+            this.LogOut.Size = new System.Drawing.Size(116, 59);
             this.LogOut.TabIndex = 7;
             this.LogOut.Text = "Log Out";
             this.LogOut.UseVisualStyleBackColor = false;
