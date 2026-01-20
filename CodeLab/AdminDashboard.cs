@@ -16,5 +16,12 @@ namespace CodeLab
         {
             InitializeComponent();
         }
+
+        private void logoutbtn_Click(object sender, EventArgs e)
+        {
+            LogIn logIn = new LogIn();
+            logIn.Show();
+            this.Hide();
+        }
     }
 }
