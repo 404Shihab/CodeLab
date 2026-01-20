@@ -127,6 +127,7 @@
             this.LogOut.TabIndex = 7;
             this.LogOut.Text = "Log Out";
             this.LogOut.UseVisualStyleBackColor = false;
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
             // 
             // LearnerDashboard
             // 
