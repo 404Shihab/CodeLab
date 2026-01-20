@@ -54,5 +54,12 @@ namespace CodeLab
             csharp.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            LearnerDashboard learn = new LearnerDashboard();
+            learn.Show();
+            this.Hide();
+        }
     }
 }
