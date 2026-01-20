@@ -57,8 +57,8 @@ namespace CodeLab
 
         private void button4_Click(object sender, EventArgs e)
         {
-            LearnerDashboard learn = new LearnerDashboard();
-            learn.Show();
+            LearnerProfile profile = new LearnerProfile();
+            profile.Show();
             this.Hide();
         }
     }
