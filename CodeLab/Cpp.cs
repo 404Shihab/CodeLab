@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CodeLab
 {
-    public partial class C__ : Form
+    public partial class Cpp : Form
     {
-        public C__()
+        public Cpp()
         {
             InitializeComponent();
         }

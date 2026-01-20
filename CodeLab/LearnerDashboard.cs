@@ -33,5 +33,26 @@ namespace CodeLab
             login.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Cpp cpp = new Cpp();
+            cpp.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Java java = new Java();
+            java.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CSharp csharp = new CSharp();
+            csharp.Show();
+            this.Hide();
+        }
     }
 }

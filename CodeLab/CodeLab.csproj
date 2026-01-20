@@ -52,17 +52,17 @@
     <Compile Include="AdminDashboard.Designer.cs">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="C++.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="C++.Designer.cs">
-      <DependentUpon>C++.cs</DependentUpon>
-    </Compile>
     <Compile Include="clSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="clSignUp.Designer.cs">
       <DependentUpon>clSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cpp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cpp.Designer.cs">
+      <DependentUpon>Cpp.cs</DependentUpon>
     </Compile>
     <Compile Include="CSharp.cs">
       <SubType>Form</SubType>
@@ -117,11 +117,11 @@
     <EmbeddedResource Include="AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="C++.resx">
-      <DependentUpon>C++.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="clSignUp.resx">
       <DependentUpon>clSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cpp.resx">
+      <DependentUpon>Cpp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CSharp.resx">
       <DependentUpon>CSharp.cs</DependentUpon>
