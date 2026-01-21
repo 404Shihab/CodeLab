@@ -31,5 +31,29 @@ namespace CodeLab
             lblWelcome.Text = "Welcome, " + fullName;
         }
 
+        private void label3_Click(object sender, EventArgs e)//Learner's List
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)//Name
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)//Add
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)//Update
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)//Delete
+        {
+
+        }
     }
 }
