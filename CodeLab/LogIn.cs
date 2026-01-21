@@ -45,6 +45,7 @@ namespace CodeLab
                 string username = utxt.Text.Trim();
                 string password = passtxt.Text.Trim();
 
+                
                 if (username == "admin1" && password == "adminpass")
                 {
                     AdminDashboard ad = new AdminDashboard();
@@ -54,7 +55,7 @@ namespace CodeLab
                 }
 
                 string conStr = @"Data Source=(LocalDB)\MSSQLLocalDB;
-                 AttachDbFilename=D:\C# Codes\CodeLab\CodeLab\CodeLabdb.mdf;
+        AttachDbFilename=D:\C# Codes\CodeLab\CodeLab\CodeLabdb.mdf;
         Integrated Security=True;
         Connect Timeout=30";
 
@@ -62,33 +63,43 @@ namespace CodeLab
                 {
                     con.Open();
 
+                    
                     SqlCommand cmdInstructor = new SqlCommand(
-                        "SELECT COUNT(*) FROM InstructorsInfo WHERE UserName=@u AND Password=@p", con);
+                        "SELECT FirstName, LastName FROM InstructorsInfo WHERE UserName=@u AND Password=@p", con);
 
                     cmdInstructor.Parameters.AddWithValue("@u", username);
                     cmdInstructor.Parameters.AddWithValue("@p", password);
 
-                    int instructor = (int)cmdInstructor.ExecuteScalar();
+                    SqlDataReader rdr1 = cmdInstructor.ExecuteReader();
 
-                    if (instructor > 0)
+                    if (rdr1.Read())
                     {
-                        InstructorDashboard id = new InstructorDashboard();
+                        string fname = rdr1["FirstName"].ToString();
+                        string lname = rdr1["LastName"].ToString();
+
+                        InstructorDashboard id = new InstructorDashboard(fname, lname);
                         id.Show();
                         this.Hide();
                         return;
                     }
 
+                    rdr1.Close();
+
+                    
                     SqlCommand cmdLearner = new SqlCommand(
-                        "SELECT COUNT(*) FROM LearnersInfo WHERE UserName=@u AND Password=@p", con);
+                        "SELECT FirstName, LastName FROM LearnersInfo WHERE UserName=@u AND Password=@p", con);
 
                     cmdLearner.Parameters.AddWithValue("@u", username);
                     cmdLearner.Parameters.AddWithValue("@p", password);
 
-                    int learner = (int)cmdLearner.ExecuteScalar();
+                    SqlDataReader rdr2 = cmdLearner.ExecuteReader();
 
-                    if (learner > 0)
+                    if (rdr2.Read())
                     {
-                        LearnerDashboard ld = new LearnerDashboard();
+                        string fname = rdr2["FirstName"].ToString();
+                        string lname = rdr2["LastName"].ToString();
+
+                        LearnerDashboard ld = new LearnerDashboard(fname, lname);
                         ld.Show();
                         this.Hide();
                         return;
@@ -102,6 +113,7 @@ namespace CodeLab
                 MessageBox.Show(ex.Message);
             }
         }
+
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

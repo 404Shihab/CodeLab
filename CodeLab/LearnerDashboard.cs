@@ -12,15 +12,24 @@ namespace CodeLab
 {
     public partial class LearnerDashboard : Form
     {
+        string fullName;
+
         public LearnerDashboard()
         {
             InitializeComponent();
         }
+        public LearnerDashboard(string fname, string lname)
+        {
+            InitializeComponent();
+            fullName = fname + " " + lname;
+        }
+
 
         private void LearnerDashboard_Load(object sender, EventArgs e)
         {
-
+            lblWelcome.Text = "Welcome, " + fullName;
         }
+
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -60,6 +69,11 @@ namespace CodeLab
             LearnerProfile profile = new LearnerProfile();
             profile.Show();
             this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
